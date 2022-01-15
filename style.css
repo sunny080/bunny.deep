@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
+
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    align-items: center;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.all-links{
+    display: flex;
+    align-items:center;
+
+}
+.items{
+    display: flex;
+    margin-right: 30px;
+    gap: 20px;
+    list-style: none;
+}
+.logo{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.links{
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+   color: #fff;
+}
+.btn{
+    width: 190px;
+    color: #141316;
+    border-radius:50px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    width:80%;
+    margin-top: 200px;
+    margin-left: 10%;
+
+}
+
+.heading{
+    font-size: 80px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+
+    font-weight: 600;
+}
+.heading-btn{
+    display: flex;
+    align-items: center;
+
+}
+.btn1{
+    width: 170px;
+    height: 50px;
+    background-color: #25b190;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0px 0px 30px #25b190;
+    font-size: 17px;
+}
+
+.anime1{
+
+    animation: anime 3s linear infinite;
+    animation-delay:  1s;
+}
+
+.anime2{
+    animation: anime  2s linear infinite;
+    animation-delay:2s;
+
+}
+.anime3{
+    animation: anime  1s linear infinite;
+    animation-delay:3s ;
+
+}
+@keyframes anime {
+    0%{
+        color: #fff;
+        text-shadow: 0px 0px 0px #fff;
+
+    }
+    100%{
+        text-shadow: 0px 0px 30px #25b190 ;
+        color: #e7fff9;
+      }
+}
+
+
+
+.left
+{
+    width: 50%;
+
+}
+
+
+.iner{
+   width: 350px;
+   height: 90px;
+   display: flex;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+}
+.para{
+    width: 260px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.deco{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.deco1
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+.right{
+    width: 50%;
+}
+.wrapper{
+    position: relative;
+    width: 320px;
+    margin: 150px auto;
+    z-index: -1;
+    perspective: 1000px;
+}
+.img-area{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    rotate: 10deg;
+    transform: rotateY(-360deg) translateZ(-300px);
+    animation: animate 40s steps(10000,end) infinite;
+}
+.single-img{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 200px;
+
+
+}
+.single-img img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+.single-img.img-one{
+    transform: rotateY(0deg) translateZ(300px);
+}
+
+.single-img.img-two{
+    transform: rotateY(60deg) translateZ(300px);
+}.single-img.img-three{
+    transform: rotateY(120deg) translateZ(300px);
+}.single-img.img-four{
+    transform: rotateY(180deg) translateZ(300px);
+}.single-img.img-five{
+    transform: rotateY(240deg) translateZ(300px);
+}.single-img.img-six{
+    transform: rotateY(300deg) translateZ(300px);
+}
+
+@keyframes animate {
+    from{
+        transform: rotateY(-360deg);
+
+    }
+    to{
+        transform: rotateY(0deg);
+    }
+    
+}
+
+
+
+
+@media (max-width:1163px){
+    .right{
+        width: 100%;
+        position:absolute;
+    }
+    .left{
+        width: 100%;
+    }
+    
+}
+@media (max-width:695px) {
+   .img-area{
+       width: 200px;
+   }
+   .wrapper{
+       width: 100%;
+   }
+   .btn{
+       display: none;
+
+   }
+   .items{
+       margin-right: 0;
+   }
+
+
+
+
+   
+
+    
+    
+}
+@media (max-width:511px) {
+    .wrapper{
+        margin-left: -100px;
+    }
+    .img-area{
+        margin-left: -100px;
+    }
+    .iner{
+        width: 100%;
+    }
+    .heading{
+        font-size: 60px;
+    }
+
+    
+}
