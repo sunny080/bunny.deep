@@ -898,3 +898,319 @@ header{
 
 
 
+.contain{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    margin-top: 100px;
+}
+.righter{
+    overflow: hidden;
+    width: 70%;
+}
+
+
+
+
+.heading6{
+    font-weight: 400;
+    font-size: 100px;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(200px) translateX(200px) ;
+    transition: .4s;
+    font-family: 'Rubik';
+}
+.heading6.sho{
+    opacity: 1;
+    transform: translateY(0px) translateX(0px) ;
+    transition: .4s;
+}
+.boll{
+    font-weight:400 ;
+    margin-left: 170px;
+}
+
+
+
+
+
+
+
+.lefter{
+    overflow: hidden;
+    width: 30%;
+}
+.paragraph{
+    line-height: 30px;
+    font-size: 18px;
+    width: 402px;
+    letter-spacing: 2px;
+    margin-top: 400px;
+    opacity: 0;
+    transition: .4s;
+    transform: translateX(-200px) translateY(-200px);
+    color: #fff;
+    font-family: 'Rubik';
+}
+
+.paragraph.shoo{
+    opacity: 1;
+    transition: .4s;
+    transform: translateX(0px) translateY(0px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1169px) {
+    .heading6{
+font-size: 60px;
+    }
+    .paragraph{
+        margin-top: 200px;
+    }
+    .boll{
+        margin-left: 100px;
+    }
+
+    
+}
+
+@media (max-width:790px) {
+    .contain{
+        flex-direction:column-reverse ;
+
+    }
+    .lefter{
+        width: 100%;
+
+    }
+    .righter{
+        width: 100%;
+
+    }
+    .paragraph{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+
+
+}
+@media (max-width:503px) {
+
+    .heading6{
+        font-size: 40px;
+    }
+    .paragraph{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+
+
+}
+.inner-cards{
+    margin-top: 100px;
+    gap: 40px;
+    width: 65%;
+    justify-content: center;
+    display:flex;
+    padding:0 5%;
+    flex-wrap: wrap;
+ 
+}
+
+.cardss{
+    margin-top: 200px;
+    width: 370px;
+    background: url(angle.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 410px;
+
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.wiy{
+    position:relative;
+    padding: 30px;
+    width: 330px;
+    border-radius: 20px;
+    height: 370px;
+    background-color: #25b190;
+}
+.footer-card{
+    margin-left: 30px;
+    margin-right: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+.name{
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 40px
+    
+}
+
+.par{
+    font-family: 'Rubik';
+    font-size: 18px;
+    padding-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.num{
+    font-weight: 100;
+
+    font-family: 'rubik';
+    font-size: 40px;
+}
+.shim{
+    margin-top: -0px;
+}
+.shimr{
+    margin-top: -200px;
+}
+.sham{
+    margin-left: 410px;
+}
+
+
+
+@media (max-width:1433px) {
+  .inner-cards{
+      padding: 0 0;
+  }
+    
+}
+@media (max-width:1207px) {
+    .inner-cards{
+      width: 80%;
+    }
+      
+  }
+
+  @media (max-width:975px) {
+    .inner-cards{
+      width: 100%;
+    }
+      
+  }
+
+
+  @media (max-width:785px) {
+    .inner-cards{
+      width: 100%;
+    }
+    .shimr{
+        margin-top: 0;
+
+    }
+    .shim{
+        margin-top: 0;
+    }
+    .sham{
+        margin-left: 0;
+    }
+    .cardss{
+        margin-top: 0px;
+       background: none;
+        width: 80%;
+
+    }
+      
+  }
+
+  @media (max-width:575px) {
+   .cardss{
+       height: 412px;
+       
+       width: 372px;
+       background-repeat: no-repeat;
+       background: url(angle.svg);
+   }  
+}
+
+
+
+.lefti{
+    transition: .3s;
+    opacity: 0;
+    transform: translateY(150px);
+}
+
+.lefti.shoo{
+    opacity: 1;
+    transition: .2s;
+    transform: translateX(0px) translateY(0px);
+}
+
+
+.rim{
+    transition: .3s;
+    opacity: 0;
+    transform: translateY(150px);
+
+}
+.rim.shoo{
+    opacity: 1;
+    transition: .2s;
+    transform: translateX(0px) translateY(0px);
+}
+.lopp{
+    transition: .3s;
+    opacity: 0;
+    transform: translateY(150px);
+}
+.lopp.shoo{
+    opacity: 1;
+    transition: .2s;
+    transform: translateX(0px) translateY(0px);
+}
