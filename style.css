@@ -223,7 +223,7 @@ canvas {
     margin: 150px auto;
     transform: rotate(10deg);
     z-index: -1;
-    perspective: 1000px;
+    perspective: 4000px;
 }
 .img-area{
     position:absolute;
@@ -1214,3 +1214,107 @@ font-size: 60px;
     transition: .2s;
     transform: translateX(0px) translateY(0px);
 }
+
+
+
+
+
+.lap{
+    text-align: center;
+    font-size: 90px;
+    font-weight: 300;
+    font-family: 'Rubik';
+    margin-top: 100px;
+    color: #fff;
+}
+
+
+
+
+.mik{
+    width:80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+    color:#fff;
+}
+
+
+.link{
+    font-size: 35px ;
+    border-bottom: 3px solid #25b190;
+    color: #25b190;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.link2{
+    font-size: 35px ;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.limk{
+    height: 100vh;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+.navigate{
+    height: 100vh;
+    position: relative;
+    width: 100px;
+}
+.nav3{
+    position: relative;
+    height: 100vh;
+    z-index: -1;
+}
+.triger{
+    position:absolute;
+    top: 73px;
+    left: 34px;
+    width: 5px;
+    background-color: #25b190;
+    height: 0px;
+    max-height: 100vh;
+}
+
