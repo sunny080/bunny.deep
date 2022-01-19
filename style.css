@@ -1865,4 +1865,10 @@ header {
   .text-head{
     font-size: 20px;
   }
+  .btn1{
+    display: none;
+  }
+  .kam{
+    margin-top: 70px;
+  }
 }
