@@ -1841,3 +1841,28 @@ header {
       }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:370px){
+  .cardss{
+    background: none;
+    width: 300px;
+    height: 370px;
+  }
+  .nav2{
+    display: none;
+  }
+  .text-head{
+    font-size: 20px;
+  }
+}
